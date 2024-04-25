@@ -46,7 +46,7 @@ header{
     font-size: 27px;    
 }
 
-#aboutbox{
+#about{
     display: flex;
     padding: 100px;
     color: antiquewhite;
@@ -150,7 +150,7 @@ header{
     border-radius: 40px;
 }
 
-.contact{
+.contactme{
     display: flex;
     margin-top: 50px;
     color: antiquewhite;
