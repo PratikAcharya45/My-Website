@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+
+body{
+    background-color:black;
+}
+
+
+#name{
+    margin: 30px ;
+    margin-right: 600px;
+    font-size: 50px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 50;
+    font-style:normal;
+    color: cyan;
+    text-decoration: none;
+
+}
+#name:hover{
+    cursor:default;
+}
+
+
+#navbar{
+    margin-right: 50px;
+    font-size: 25px;
+    color:hsl(39, 81%, 35%);
+    text-shadow: 5px;
+    font-weight: 900;
+    text-decoration: none;
+}
+#navbar:hover{
+    border-bottom: 3px solid rgb(124, 9, 9);
+    cursor: pointer;
+    color: hsl(39, 81%, 70%);
+    font-size: 27px;    
+}
+
+#aboutbox{
+    display: flex;
+    margin-top: 150px;
+    color: antiquewhite;
+
+}
+.photobox{
+    color: antiquewhite;
+    height: 500px;
+    width:400px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 10px solid white;
+
+}
+.descriptionbox{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    height:600px;
+    width:900px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+#navabout{
+    margin-right: 150px;
+    font-size: 28px;
+    color:white;
+    text-shadow: 5px;
+    font-weight: 500;
+}
+#navabout:hover{
+    border-bottom: 3px solid hsl(359, 91%, 13%);
+    cursor: pointer;
+    color: cyan;
+    
+}
+#skillt{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    font-size: 50px;
+    text-decoration:  underline;
+    
+}
+#techskills{
+    padding-bottom: 50px;
+    color: antiquewhite;
+    width: 600px;
+    margin-left:100px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.skillcontainer{
+    background-color: rgb(19, 27, 27);
+    width: 80%; 
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 1000;
+    color:  black;
+}
+.skillPython{
+    width: 80%;
+    padding: 1%;
+    background-color: rgb(246 6 6);
+    border-radius: 40px;
+}
+.skillC{
+    width: 80%;
+    padding: 1%;
+    background-color: rgb(27 0 255);
+    border-radius: 40px;
+}
+.skillhtml{
+    width: 90%;
+    padding: 1%;
+    background-color: rgb(255 200 0);
+    border-radius: 40px;  
+}
+.skillcss{
+    width: 50%;
+    padding: 1%;
+    background-color: rgb(66 255 0);
+    border-radius: 40px;
+}
+.skilljs{
+    width: 40%;
+    padding: 1%;
+    background-color: rgb(255 0 201);
+    border-radius: 40px;   
+}
+.skilldsa{
+    width: 20%;
+    padding: 1%;
+    background-color: rgb(0 255 198);
+    border-radius: 40px;
+}
+
+#gmail{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: antiquewhite;
+    font-size: 30px;
+}
+#phone{
+    margin-top:20px;
+    margin-left: 50px;
+    color: antiquewhite;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+#media{
+    margin-left: 50px;
+    color:#cfdbce;
+    font-size: 50px;
+}
+#ctitle{
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.contact{
+    display: flex;
+    margin-top: 50px;
+    color: antiquewhite;
+}
+.dcontact{
+    color: antiquewhite;
+    height: 500px;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.ocontact{
+    color: antiquewhite;  
+    margin-left: 30px;  
+    height: 500px;
+    width: 800px;
+
+
+}
+#yname{
+    background-color: hsl(0, 0%, 30%);
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    padding-left: 10px;
+}
+
+#email{
+    background-color: hsl(0, 0%, 30%);
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    padding-left: 10px;
+
+}
+
+#subject{
+    background-color: hsl(0, 0%, 30%);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    height: 40px;
+    width: 736px;
+    padding-left: 10px;
+}
+#message{
+    background-color: hsl(0, 0%, 30%);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    height:300px;
+    width: 736px;
+    padding-left: 10px;
+}
+#submit{
+    background-color: hsl(188, 69%, 50%);
+    color: hsl(0, 3%, 6%);
+    font-size: large;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 700px;
+
+
+
+}
+input::placeholder{
+    color: hsl(0, 0%, 70%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+textarea::placeholder{
+    color: hsl(0, 0%, 70%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+
+}
+
+footer{
+    border-top: 3px solid hsl(0, 0%, 60%);
+    color: antiquewhite;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    margin-left: 0px;
+    font-size: 18px;
+    position: absolute;
+    width: 1510px;
+}
