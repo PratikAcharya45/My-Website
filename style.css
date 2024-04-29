@@ -222,7 +222,7 @@ header{
 }
 #media:hover{
     color: cyan;
-
+    cursor: alias;
 }
 
 
