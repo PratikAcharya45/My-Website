@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color:black;
     padding-top: 60px;
@@ -28,7 +30,9 @@ header{
 #name:hover{
     cursor:default;
 }
-
+#hj{
+    font-size: 50px;
+}
 
 #navbar{
     height: 60px;
@@ -394,4 +398,32 @@ footer{
     font-size: 18px;
     position: absolute;
     width: 1492px;
+}
+/* For small screen */
+@media only screen and (max-width:600px){
+    .text{
+        font-size: 20px;
+    }
+    
+    #name{
+        padding: 0px;
+        font-size: 30px;
+    }
+    #mname{
+        font-size: 45px;
+    }
+    #desc{
+        margin: 0;
+        width: 300px;
+        padding: 20px;
+        
+    }
+    #hj{
+        font-size: 20px;
+    }
+    #home{
+        background-image: url(/Photos/);
+        background-repeat: no-repeat;
+    }
+    
 }
